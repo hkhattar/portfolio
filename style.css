@@ -1,0 +1,197 @@
+
+body
+{
+	margin:0;
+	padding:0;
+}
+.header
+{
+	background-color: black;
+	margin:0;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color:white;
+    font-size: 80%;
+    padding-left:150px;
+    padding-right:50px;
+    position: fixed;
+    width: 100%
+
+}
+	.name
+	{
+		display: inline-block;
+		/*background-color: red;*/
+	}
+
+	.nav
+	{
+		display: inline-block;
+		margin-left:480px;
+		vertical-align: top;
+	}
+
+		.nav a
+		{
+			text-decoration: none;
+			color: white;
+			display: inline-block;
+			/*background-color: yellow;*/
+			text-align: right;
+			margin:10px;
+		}
+
+.background_image
+ {
+    background-image: url("portfolio_one.jpg");
+    background-size: 100% 685px;
+    background-repeat: no-repeat;
+    padding-top:125px;
+    padding-left:490px;
+    padding-right:490px;
+    padding-bottom: 260px;
+     
+}
+
+	
+	.himanshi
+	{
+	    border-radius: 50%;
+	    display: block;
+	    margin: auto;
+	}
+
+	.connect a
+	{
+		text-decoration: none;
+		margin:10px;
+
+	}
+
+	
+.about
+{
+	padding:20px;
+	background-color: grey;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color:white;
+    font-size: 120%;
+
+}
+
+	.about p
+	{
+		text-align: center;
+		margin:70px;
+		margin-right: 80px;
+		margin-left: 80px;
+	}
+
+	
+
+
+.projects
+{
+		
+
+}
+
+.projectss {
+				display: flex;
+				justify-content: space-around;
+			}
+			.projectss a {
+				margin-left: 10px;
+				margin-right: 10px;
+ 			}
+			.projectdescriptions {
+				display: flex;
+				justify-content: space-around;
+				margin-bottom: 20px;
+			}
+			.projectss .img {
+				border-radius: 10px 10px 10px 10px;
+				cursor: pointer;
+				transition: 0.3s;
+				width: 350px;
+				height: 200px;
+				/*object-fit: contain;*/
+				/*border-collapse: separate; */
+			}
+img
+{
+	margin:20px;
+}
+.skills
+{
+	margin-left: 250px;
+}
+	h2
+	{
+		text-align: center;
+		font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+		font-size: 280%;
+		color: red;
+	}
+
+
+
+.footer
+{
+	height: 100px;
+    width: 100%;
+/*    background-color: yellow;
+*/
+}
+	.copyright
+	{
+		text-align: center;
+		padding:40px;
+	}
+
+	.footer a
+	{
+		margin:10px;
+	}
+	 	.icon
+	 	{
+	 		display: inline-block;
+
+	 	}
+
+	 	.footer p
+	 	{
+	 		/*vertical-align: top;*/
+	 	}
+
+.contact
+{
+	text-align: center;
+}
+	
+	.number
+	{
+		margin-left: -350px;
+	}
+
+	.phone {
+    text-align: justify;
+    width: [width of img];
+    display: inline-block;
+    margin:20px;
+		}
+
+	.phone img {
+    display: block;
+    margin: 0 auto;
+	}
+
+	.email {
+    text-align: justify;
+    width: [width of img];
+    display: inline-block;
+		}
+
+	.email img {
+    display: block;
+    margin: 0 auto;
+	}
